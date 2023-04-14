@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div align="center" style="margin: 0; position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%);">
+<h1 align="center">Language Training Tool</h1>
+</div>
+<div>
+    <div align="center" style="margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <div>
+            <label for="prompt">Your Description</label>
+            <input
+                    type="text"
+                    class="form-control"
+                    id="prompt"
+                    name="prompt"
+                    placeholder="Please enter your prompt here"
+                    style="text-align: center; width: 1000px"
+                    oninput="unlockButton()"
+            />
+        </div>
+        <br/>
+        <div id="img_div" style="margin:20px;"></div>
+        <button id="submit-button" class="btn btn-primary" align="center" onclick="presentImage()">submit</button>
+    </div>
+</div>
+{% endblock %}
