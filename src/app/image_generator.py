@@ -1,9 +1,9 @@
 import abc
 
 import requests
-from PIL import Image
+#from PIL import Image
 
-from adapter.dall_e_2 import AbstractDallEAdapter
+from src.adapter.dall_e_2 import AbstractDallEAdapter
 
 
 class AbstractImageGenerator(abc.ABC):

@@ -1,7 +1,7 @@
 import abc
 
 import deepl
-from auth import deepl_auth_key
+from src.auth import deepl_auth_key
 
 
 class AbstractDeepLAdapter(abc.ABC):

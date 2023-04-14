@@ -1,7 +1,7 @@
 import abc
 
 import openai
-from auth import auth_key
+from src.auth import auth_key
 
 
 class AbstractDallEAdapter(abc.ABC):

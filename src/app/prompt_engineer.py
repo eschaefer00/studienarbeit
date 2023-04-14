@@ -1,6 +1,6 @@
 import abc
 
-from adapter.deep_l import AbstractDeepLAdapter
+from src.adapter.deep_l import AbstractDeepLAdapter
 
 
 class AbstractPromptEngineer(abc.ABC):
